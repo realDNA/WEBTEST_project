@@ -1,0 +1,79 @@
+/* navbar style */
+.navbrandfont {
+    font-weight:bold; 
+    font-size:25px;
+    color:red;
+}
+
+.navfont {
+    font-family:Comic Sans MS,arial,helvetica,sans-serif;
+    font-weight:bold; font-size:20px;
+    color:red;
+}
+
+/* carousel animation */
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,  
+.carousel-fade .carousel-inner .active.left,  
+.carousel-fade .carousel-inner .active.right {
+   opacity: 0;
+}
+.carousel-fade .carousel-inner .active,  
+.carousel-fade .carousel-inner .next.left,  
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;	
+}
+.carousel-fade .carousel-inner .next,  
+.carousel-fade .carousel-inner .prev,  
+.carousel-fade .carousel-inner .active.left,  
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+/* carousel display region */
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item>a{
+    display: block;
+    height: 100%;
+}
+
+/* Address */
+#contact a#popupmap
+{
+    padding: 15px 0;
+    float: left;
+}
+
+#contact #popupmap .loc_icon
+{
+    width:50px;
+    height:auto;
+}
+
+#contact .loc_view
+{
+    width:325px;
+    height:auto;
+    float: right;
+}
+
+#contact p.loc_text,p.loc_tel, .cont_time
+{
+    display:inline; 
+    text-align:left;
+    font-size:25px;
+    font-family: verdana, Times New Roman;
+    padding: 15px 0;
+    float: left;
+    font-weight:bold;
+}
