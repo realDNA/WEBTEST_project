@@ -96,7 +96,6 @@ section.about_content
 {
     background-color: #111;
     color: #fff;
-    padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
     opacity: 0.75;
@@ -129,4 +128,3 @@ section.contact_content
     height: 400px;
     float: left;
 }
-
