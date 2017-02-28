@@ -43,10 +43,10 @@ $(function(){
     */
 
     //縮放視窗調整視窗高度
-    $(window).on('resize', function (){
-      $wHeight = $(window).height();
-      $item.height($wHeight);
-    });
+//    $(window).on('resize', function (){
+//      $wHeight = $(window).height();
+//      $item.height($wHeight);
+//    });
 
     //輪播秒數與滑入停止
     $('.carousel').carousel({
